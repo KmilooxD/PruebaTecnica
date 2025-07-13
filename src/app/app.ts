@@ -1,5 +1,8 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
+
+
+
 
 @Component({
   selector: 'app-root',
@@ -9,4 +12,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('listaTareas');
-}
+  // constructor(private route:Router){
+
+  }
+  
+  //   irPagina(direccion:string){
+  //   console.log(direccion);
+  //  this.route.navigate([direccion]);
+  // }
+
+

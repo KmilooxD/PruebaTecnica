@@ -1,0 +1,16 @@
+<div class="contenedorForm">
+    <h3>Formulario Tareas</h3>
+    <mat-card class="matCardRegistro"  appearance="outlined">
+        <form [formGroup]="form">
+            <mat-form-field class="matCardInput">
+                <mat-label>Titulo</mat-label>
+                <input formControlName="titulo" type="text"  maxlength="20" name="titulo" matInput>
+            </mat-form-field>
+            <mat-form-field class="matCardInput">
+                <mat-label>Descripción</mat-label>
+                <textarea formControlName="descripcion" matInput  maxlength="50" name="descripcion"></textarea>
+            </mat-form-field>
+        </form>
+        <button matButton="elevated" (click)="enviarForm()" [disabled]="form.invalid">Ingresar</button> 
+    </mat-card>
+</div>

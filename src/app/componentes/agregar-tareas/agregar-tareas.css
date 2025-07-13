@@ -1,0 +1,16 @@
+.contenedorForm{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.matCardRegistro{
+    width: 400px;
+    height: 318px;
+}
+.matCardInput, button{
+    margin: 10px;
+    width: 380px;
+}
+
+
+
