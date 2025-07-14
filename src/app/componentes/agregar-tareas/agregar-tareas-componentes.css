@@ -5,12 +5,15 @@
 }
 .matCardRegistro{
     width: 400px;
-    height: 318px;
+    height: 405px;
 }
 .matCardInput, button{
     margin: 10px;
     width: 380px;
 }
 
+h3{
+    text-align: center;
+}
 
 

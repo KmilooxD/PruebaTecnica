@@ -1,0 +1,34 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "titulo": "Maquetado",
+      "descripcion": "Desarrollar maquetado inicio de sesion",
+      "estado": false
+    },
+    {
+      "id": 2,
+      "titulo": "Funcionalidad Back-end",
+      "descripcion": "Generar end-points",
+      "estado": false
+    },
+    {
+      "id": 3,
+      "titulo": "Rutas",
+      "descripcion": "Generar rutas de conexion",
+      "estado": false
+    },
+    {
+      "id": 4,
+      "titulo": "Icono",
+      "descripcion": "Establecer icono del sitio web",
+      "estado": false
+    },
+    {
+      "id": 5,
+      "titulo": "Backend",
+      "descripcion": "Eliminar endpoint",
+      "estado": false
+    }
+  ]
+}

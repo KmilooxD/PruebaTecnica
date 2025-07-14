@@ -1,0 +1,8 @@
+.contenedorBtn{
+display: grid;
+justify-content: center;
+}   
+
+button{
+    margin:10px;
+}

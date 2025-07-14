@@ -1,0 +1,13 @@
+.contenedor{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.tabla{
+  width: 1300px;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+}
