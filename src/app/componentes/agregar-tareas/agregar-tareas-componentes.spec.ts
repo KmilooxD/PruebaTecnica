@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgregarTareas } from './agregar-tareas';
+import { AgregarTareas } from './agregar-tareas-componentes';
 
 describe('AgregarTareas', () => {
   let component: AgregarTareas;
