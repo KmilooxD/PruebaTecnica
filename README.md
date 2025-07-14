@@ -1,4 +1,7 @@
 # ListaTareas
+Para esta solucion carge una lista de tareas en un tabla, en la cual para completar una tarea hay que selecionar el chekcbox y automaticamnete se elimina de las tareas pendientes, para agregar una tarea hay que dar click en su respectivo boton e ingresar los datos solicitados.Para el diseno utilice angular material.
+
+Para instalar el proyecto basta con clonar el repositorio, luego por linea de comando escribir npm install y se procederia a ejecutar con el comando ng serve -o.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
 
