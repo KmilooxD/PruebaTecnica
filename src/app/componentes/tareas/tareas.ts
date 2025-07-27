@@ -16,9 +16,11 @@ constructor(private bd:TareasServicio){}
 data=signal<TareasInterface[]>([]);
 ngOnInit(){
   this.obtenerTareas();
+  
 }
 obtenerTareas(){
-this.data.set(this.bd.obtenerTareas());
+this.data.set(this.bd.obtenerTareasPendientes());
+
 }
 recibirIdTarea(id:number){
   this.bd.completarTarea(id);
