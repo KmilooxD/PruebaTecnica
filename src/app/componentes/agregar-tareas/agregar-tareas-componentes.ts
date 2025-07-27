@@ -30,7 +30,7 @@ export class AgregarTareas {
   
   enviarForm(direccion:string){
       const data: AgregarTareaInterface = {
-      id: this.form.value.id!,
+      id: Number(this.form.value.id!),
       titulo: this.form.value.titulo!,
       descripcion: this.form.value.descripcion!,
       estado: this.form.value.estado!
@@ -39,13 +39,13 @@ export class AgregarTareas {
     const idActuales = this.bd.obtenerTareas();
     const idDuplicado = idActuales.some(x => x.id  === id);
     if (idDuplicado) {
-      alert('El ID ya existe. Por favor ingresa uno diferente.');
+      alert('El ID ya le pertenece a una tarea. Por favor ingresa uno diferente.');
       return;
     }
 
   this.bd.ingresarTareas(data);
-   this.route.navigate([direccion]);
-   alert('La nueva tarea fue creada');
+  this.route.navigate([direccion]);
+  alert('La nueva tarea fue creada');
   }
   
   
