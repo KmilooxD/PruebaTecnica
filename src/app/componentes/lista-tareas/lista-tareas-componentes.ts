@@ -27,7 +27,7 @@ tareas=input<TareasInterface[]>([]);
 
   cambioEstado(id:number){
     this.idTarea.emit(id);
-    this.dataSource=this.bd.obtenerTareasPendientes();
+    this.dataSource=this.bd.obtenerTareas();
 }
   displayedColumns: string[] = ['position', 'titulo', 'descripcion', 'estado','accion'];
   dataSource:TareasInterface[] = [];

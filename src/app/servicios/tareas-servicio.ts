@@ -29,7 +29,7 @@ bd.tareas.push(data);
 completarTarea(id:number){
   let estado=bd.tareas.find(x=>x.id===id);  
   if(estado){
-    estado.estado=true;
+    estado.estado=!estado.estado;
   }
 }
 }
