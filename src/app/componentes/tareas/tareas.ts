@@ -19,7 +19,7 @@ ngOnInit(){
   
 }
 obtenerTareas(){
-this.data.set(this.bd.obtenerTareasPendientes());
+this.data.set(this.bd.obtenerTareas());
 
 }
 recibirIdTarea(id:number){
